@@ -5,7 +5,7 @@ import domain.PatoDeGoma;
 import domain.PatoReal;
 import domain.PatoSenuelo;
 
-public class Testeo {
+public class SimPato {
 
     public static void main(String[] args) {
         PatoReal preal = new PatoReal();

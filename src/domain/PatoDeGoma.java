@@ -3,6 +3,7 @@ package domain;
 public class PatoDeGoma extends Pato {
 
     public PatoDeGoma() {
+
         cuaqueable = new Chirreo();
         volable = new NoVuela();
 
