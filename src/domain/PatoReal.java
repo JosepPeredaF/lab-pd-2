@@ -1,23 +1,17 @@
-
 package domain;
 
+public class PatoReal extends Pato {
 
-public class PatoReal extends Pato implements Volable,Cuaqueable{
+    public PatoReal() {
+
+        cuaqueable = new Cuaqueo();
+        volable = new VuelaConAlas();
+
+    }
 
     @Override
     public void mostrar() {
         System.out.println("Yo soy real PATO REAL");
     }
 
-    @Override
-    public void volar() {
-                System.out.println("Puedo volar con mis alas");
-
-    }
-
-    @Override
-    public void cuaquear() {
-       System.out.println("Soy un verdadero pato por eso hago CUAC CUAC");
-    }
-    
 }
