@@ -5,8 +5,11 @@ public abstract class Pato {
     
     Volable volable;
     Cuaqueable cuaqueable;
-    
 
+    public Pato() {
+
+    }
+       
     public void setCuaqueable(Cuaqueable qb) {
         this.cuaqueable = qb;
     }

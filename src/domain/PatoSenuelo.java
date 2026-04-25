@@ -4,6 +4,11 @@ package domain;
 
 public class PatoSenuelo extends Pato implements Volable,Cuaqueable{
 
+    public PatoSenuelo() {
+    }
+
+    
+    
     @Override
     public void mostrar() {
         System.out.println("Yo soy un Pato Señuelo");
