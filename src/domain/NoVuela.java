@@ -7,3 +7,4 @@ public class NoVuela implements Volable {
         System.out.println("INCAPAZ DE VOLAR");
     }
 }
+    
